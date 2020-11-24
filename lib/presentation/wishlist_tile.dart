@@ -17,8 +17,10 @@ class WishlistTile extends StatelessWidget {
     return ListTile(
       tileColor: Theme.of(context).colorScheme.background,
       leading: CircleAvatar(
-        child: Icon(Icons.sanitizer_outlined),
+        child: Icon(product.icon),
       ),
+      title: Text(product.name),
+      subtitle: Text(product.price),
     );
   }
 }
