@@ -36,8 +36,6 @@ class _SexyJanState extends State<SexyJan> {
         ),
         Positioned(
           top: -100,
-          left: 0,
-          right: 0,
           child: ConfettiWidget(
             confettiController: _controller,
             blastDirection: pi / 2,
