@@ -39,6 +39,7 @@ class _SexyJanState extends State<SexyJan> {
           child: Transform.translate(
             offset: Offset(0, -150),
             child: ConfettiWidget(
+              gravity: .01,
               confettiController: _controller,
               blastDirection: pi / 2,
               blastDirectionality: BlastDirectionality.explosive,
