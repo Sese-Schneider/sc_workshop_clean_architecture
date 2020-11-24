@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Wishlist {
   Wishlist(this.products);
 
@@ -9,7 +11,7 @@ class WishlistProduct {
 
   int id;
 
-  String icon;
+  IconData icon;
 
   String name;
 

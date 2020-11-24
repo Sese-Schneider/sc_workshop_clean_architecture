@@ -17,8 +17,6 @@ class MainViewModel extends ChangeNotifier {
     showJan = !showJan;
   }
 
-  IconData getIcon(String name) {}
-
   Wishlist wishlist;
 
   bool showJan;
