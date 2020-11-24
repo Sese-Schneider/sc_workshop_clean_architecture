@@ -15,5 +15,6 @@ class WishlistProduct {
 
   String name;
 
-  double price;
+  /// Price with currency.
+  String price;
 }
