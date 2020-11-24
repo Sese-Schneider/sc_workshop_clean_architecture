@@ -11,12 +11,12 @@ class MainViewModel extends ChangeNotifier {
   Future<void> init() async {
     // wishlist = await GetWishlist(WishlistRepoImpl()).call();
     wishlist = Wishlist(<WishlistProduct>[
-      WishlistProduct(3, Icons.ac_unit, 'Test Product', 5.99),
-      WishlistProduct(3, Icons.link, 'Test Link', 15.99),
-      WishlistProduct(3, Icons.padding, 'Test Tom Designer', 0.99),
+      WishlistProduct(3, Icons.ac_unit, 'Test Product', '5.99€'),
+      WishlistProduct(3, Icons.link, 'Test Link', '15.99€'),
+      WishlistProduct(3, Icons.padding, 'Test Tom Designer', '0.99€'),
       WishlistProduct(
-          3, Icons.airplanemode_inactive_rounded, 'Test Airplane', 599.45),
-      WishlistProduct(3, Icons.wb_cloudy_sharp, 'Test Cloud', 12.99),
+          3, Icons.airplanemode_inactive_rounded, 'Test Airplane', '599.45€'),
+      WishlistProduct(3, Icons.wb_cloudy_sharp, 'Test Cloud', '12.99€'),
     ]);
     notifyListeners();
   }
