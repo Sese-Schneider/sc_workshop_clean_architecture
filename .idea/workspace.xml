@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24fb5919-65bc-4b21-89a9-a31f946127f9" name="Default Changelist" comment="" />
+    <list default="true" id="24fb5919-65bc-4b21-89a9-a31f946127f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +25,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -38,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606233120305</updated>
-      <workItem from="1606233121381" duration="90000" />
+      <workItem from="1606233121381" duration="627000" />
     </task>
     <servers />
   </component>
@@ -54,6 +59,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="633" y="376" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606233138306" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1606233626503">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233626503" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1606233626500">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.center/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233626500" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1606233626497">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.left/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233626497" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1606233626501">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.right/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233626501" />
     <state x="397" y="218" key="SettingsEditor" timestamp="1606233207022">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
