@@ -1,0 +1,85 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+ios/Runner/GeneratedPluginRegistrant.*
+
+## ---- Xcode ----
+# CMake
+cmake-build-debug/
+### Objective-C ###
+DerivedData/
+# Various settings
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+##Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+iOSInjectionProject/
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+# Swift Package Manager
+.build/
+*.xcodeproj/*
+/*.gcno
+
+# Android related
+android/.gradle
+android/local.properties
+
+# iOS related
+ios/Flutter
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Other
+.lokalise
+.ssh
+failures/
+.firebase
