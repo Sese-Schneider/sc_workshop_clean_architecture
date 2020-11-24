@@ -24,3 +24,4 @@ flutter:
 
   assets:
      - assets/christmas_jan.png
+     - assets/wish_list.json

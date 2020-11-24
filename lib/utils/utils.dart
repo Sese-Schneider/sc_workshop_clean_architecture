@@ -19,3 +19,7 @@ MaterialColor createMaterialColor(Color color) {
   });
   return MaterialColor(color.value, swatch);
 }
+
+IconData mapIcon(String icon) {
+  return Icons.ac_unit;
+}

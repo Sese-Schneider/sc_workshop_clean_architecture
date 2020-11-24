@@ -1,16 +1,11 @@
 import 'dart:convert';
-import 'dart:io';
+
+import 'package:flutter/services.dart';
 
 class CouchbaseDb {
-  Map<String, dynamic> query() {
-    String queryResult;
-    try {
-      File('couchbase${Platform.pathSeparator}wish_list').readAsStringSync();
-    } on FileSystemException catch (_) {
-      File(
-        'lib${Platform.pathSeparator}couchbase${Platform.pathSeparator}wish_list',
-      ).readAsStringSync();
-    }
-    return json.decode(queryResult);
+  Future<Map<String, dynamic>> query() async {
+    final data = await rootBundle.loadString('assets/wish_list.json');
+    final jsonData = json.decode(data);
+    return jsonData;
   }
 }

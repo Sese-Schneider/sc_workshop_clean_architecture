@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:sc_clean_architecture/domain/entities/Wishlist.dart';
+import 'package:sc_clean_architecture/utils/utils.dart';
 
 /// Widget for [WishlistProduct].
 class WishlistTile extends StatelessWidget {
@@ -27,7 +28,7 @@ class WishlistTile extends StatelessWidget {
       ],
       child: ListTile(
         leading: CircleAvatar(
-          child: Icon(product.icon),
+          child: Icon(mapIcon(product.icon)),
         ),
         title: Text(product.name),
         subtitle: Text(product.price),
