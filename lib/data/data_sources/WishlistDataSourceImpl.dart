@@ -10,7 +10,8 @@ class WishlistDataSourceImpl extends WishlistDataSource {
     final List<Map<String, dynamic>> arr = db.query()['products'];
 
     final products = arr
-        .map((e) => WishlistProduct(e['id'], e['icon'], e['name'], e['price']))
+        .map((e) => WishlistProduct(
+            e['id'], e['icon'], e['name'], '${e['price'].toString()} €'))
         .toList();
 
     final wishlist = Wishlist(products);
