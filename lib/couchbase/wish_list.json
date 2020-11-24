@@ -1,0 +1,56 @@
+{
+   "products":[
+      {
+         "id":1,
+         "icon":"router",
+         "name":"Fritz Tom Box",
+         "price":199.99
+      },
+      {
+         "id":2,
+         "icon":"sports_bar",
+         "name":"Orginales Heuberg Sprungweizen Set",
+         "price":79.99
+      },
+      {
+         "id":3,
+         "icon":"sanitizer",
+         "name":"Desinfektionsmittel"
+      },
+      {
+         "id":3,
+         "icon":"sanitizer",
+         "name":"Desinfektionsmittel",
+         "price":9999.99
+      },
+      {
+         "id":4,
+         "icon":"phone_iphone",
+         "name":"1 neues Handy",
+         "price":899.99
+      },
+      {
+         "id":5,
+         "icon":"star_rate",
+         "name":"simpleclub unlimited",
+         "price":89.99
+      },
+      {
+         "id":6,
+         "icon":"local_drink",
+         "name":"Ne smarte Wasserflasche, die automatisch deinen Bierkonsum per App trackt",
+         "price":69.99
+      },
+      {
+         "id":7,
+         "icon":"wc",
+         "name":"Eine Frau an meiner Seite",
+         "price":4.99
+      },
+      {
+         "id":8,
+         "icon":"school",
+         "name":"Gute Bildung für jeden!"
+      }
+   ]
+}
