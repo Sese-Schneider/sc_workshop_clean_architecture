@@ -21,5 +21,24 @@ MaterialColor createMaterialColor(Color color) {
 }
 
 IconData mapIcon(String icon) {
-  return Icons.ac_unit;
+  switch (icon) {
+    case 'star_rate':
+      return Icons.star_rate;
+    case 'router':
+      return Icons.router;
+    case 'sports_bar':
+      return Icons.sports_bar;
+    case 'sanitizer':
+      return Icons.sanitizer;
+    case 'phone_iphone':
+      return Icons.phone_iphone;
+    case 'local_drink':
+      return Icons.local_drink;
+    case 'wc':
+      return Icons.wc;
+    case 'school':
+      return Icons.school;
+    default:
+      return Icons.ac_unit;
+  }
 }
