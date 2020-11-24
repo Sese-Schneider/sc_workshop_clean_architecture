@@ -31,7 +31,7 @@ class WishlistTile extends StatelessWidget {
           child: Icon(mapIcon(product.icon)),
         ),
         title: Text(product.name),
-        subtitle: Text(product.price),
+        subtitle: Text(product.price == null ? '' : product.price),
       ),
     );
   }

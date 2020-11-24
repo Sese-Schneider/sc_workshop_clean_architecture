@@ -16,7 +16,7 @@ class WishlistDataSourceImpl extends WishlistDataSource {
               e['id'],
               e['icon'],
               e['name'],
-              '${e['price'].toString()} €',
+              e['price'] == null ? null : '${e['price'].toString()} €',
             ))
         .toList();
 
