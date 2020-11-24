@@ -34,22 +34,25 @@ class _SexyJanState extends State<SexyJan> {
         Center(
           child: Image.asset('assets/christmas_jan.png'),
         ),
-        Positioned(
-          top: -100,
-          child: ConfettiWidget(
-            confettiController: _controller,
-            blastDirection: pi / 2,
-            blastDirectionality: BlastDirectionality.explosive,
-            emissionFrequency: .1,
-            numberOfParticles: 30,
-            minimumSize: Size(3, 3),
-            maximumSize: Size(9, 9),
-            colors: [
-              Colors.white,
-              Colors.white54,
-              Colors.white70,
-            ],
-            shouldLoop: true,
+        Align(
+          alignment: Alignment.topCenter,
+          child: Transform.translate(
+            offset: Offset(0, -150),
+            child: ConfettiWidget(
+              confettiController: _controller,
+              blastDirection: pi / 2,
+              blastDirectionality: BlastDirectionality.explosive,
+              emissionFrequency: .1,
+              numberOfParticles: 30,
+              minimumSize: Size(3, 3),
+              maximumSize: Size(9, 9),
+              colors: [
+                Colors.white,
+                Colors.white54,
+                Colors.white70,
+              ],
+              shouldLoop: true,
+            ),
           ),
         ),
       ],

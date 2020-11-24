@@ -18,6 +18,7 @@ class MainView extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Sexy Jan's Wishlist"),
+        centerTitle: true,
       ),
       floatingActionButton: model.showJan
           ? null
